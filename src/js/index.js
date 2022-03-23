@@ -6,4 +6,13 @@
 */
 
 const listaSelecaoPokemons = document.querySelectorAll('.pokemon')
+const pokemonsCard = document.querySelectorAll('.cartao-pokemon')
 console.log(listaSelecaoPokemons)
+
+listaSelecaoPokemons.forEach(pokemon => {
+  //Click event
+  pokemon.addEventListener('click', () => {
+
+  })
+})
+
