@@ -12,6 +12,9 @@ console.log(listaSelecaoPokemons)
 listaSelecaoPokemons.forEach(pokemon => {
   //Click event
   pokemon.addEventListener('click', () => {
+    console.log(pokemon)
+    //remove a classe aberto somente do cartão que está aberto...
+
 
   })
 })
